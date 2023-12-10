@@ -1,3 +1,55 @@
+.Logo{
+    height: 55px;
+    width: 165px;
+    border-radius: 5px;
+}
+.heading{
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 1px;
+}
+.Description{
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(96,96,96);
+    width: 270px;
+    margin-top: 1px;
+}
+.subscribers{
+    color: rgb(96,96,96);
+    font-family: Arial;
+    font-size: 14px;
+    margin-top: 0px;
+
+}
+.Link{
+    margin-right: 8px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    transition: color 0.15s;
+    margin-bottom: 0px;
+}
+.Link:hover{
+    color: blue;
+}
+.Title{
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    width: 300px;
+    margin-bottom: 5px;
+    
+}
+.Views{
+    font-family: Arial;
+    font-size: 14px;
+    margin-top: 0px;
+    
+}
 .subscribe-button {
     background-color: rgb(200, 0, 0);
     color: white;
@@ -21,6 +73,8 @@
     color: rgb(41, 118, 211);
     padding-top: 9px;
     padding-bottom:9px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-width: 1px;
     border-radius: 2px;
     margin-right: 8px;
@@ -36,19 +90,4 @@
 }
 .join-button:active{
     opacity: 0.6;
-}
-.tweet-button{
-    background-color: rgb(5, 180, 250);
-    color: white;
-    font-weight: bold;
-    font-size: 16px;
-    height: 36px;
-    width: 74px;
-    border: none;
-    border-radius: 35px;
-    cursor: pointer;
-    transition: box-shadow 0.15s;
-}
-.tweet-button:hover{
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.16);
 }
