@@ -2,8 +2,8 @@
     background-color: rgb(200, 0, 0);
     color: white;
     border: none;
-    height: 36px;
-    width: 105px;
+   padding-top: 10px;
+   padding-bottom: 10px;
     margin-right: 8px;
     border-radius: 2px;
     cursor: pointer;
@@ -19,8 +19,9 @@
 .join-button{
     background-color: white;
     color: rgb(41, 118, 211);
-    height: 36px;
-    width: 65px;
+    padding-top: 9px;
+    padding-bottom:9px;
+    border-width: 1px;
     border-radius: 2px;
     margin-right: 8px;
     border-color: rgb(41, 118, 211);
